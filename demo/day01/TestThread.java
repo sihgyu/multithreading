@@ -1,5 +1,7 @@
 package day01;
 
+import util.WebDownloader;
+
 /**
  * @author yusx
  * @date 2020/11/25 3:33 下午
