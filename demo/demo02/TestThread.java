@@ -1,4 +1,4 @@
-package day02;
+package demo02;
 
 import util.WebDownloader;
 

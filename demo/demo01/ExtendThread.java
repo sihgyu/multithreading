@@ -1,4 +1,4 @@
-package day01;
+package demo01;
 
 /**
  * @author yusx
