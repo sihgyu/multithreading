@@ -6,7 +6,7 @@ package day01;
  */
 public class Main {
     public static void main(String[] args) {
-        CreateThread t1 = new CreateThread();
+        ExtendThread t1 = new ExtendThread();
         t1.start();
         for (int i = 0; i < 20; i++) {
             System.out.println("main thread:" + i);
