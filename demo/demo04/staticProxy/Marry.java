@@ -1,4 +1,4 @@
-package demo04;
+package demo04.staticProxy;
 
 /**
  * @author sihgyu

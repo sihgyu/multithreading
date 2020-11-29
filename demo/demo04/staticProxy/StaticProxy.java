@@ -1,4 +1,4 @@
-package demo04;
+package demo04.staticProxy;
 
 /**
  * @author sihgyu
@@ -22,5 +22,11 @@ public class StaticProxy {
          */
         new Thread(() -> System.out.println("lambda")).start();
         new WeddingCompany(new People()).happyMarry();
+        new Thread(new Runnable() {
+            @Override
+            public void run() {
+                System.out.println("不使用lambda");
+            }
+        }).start();
     }
 }

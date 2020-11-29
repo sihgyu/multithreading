@@ -1,4 +1,6 @@
-package demo04;
+package demo04.staticProxy;
+
+import demo04.staticProxy.Marry;
 
 /**
  * @author sihgyu
