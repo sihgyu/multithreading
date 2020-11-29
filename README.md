@@ -24,3 +24,15 @@
 + 重写run方法 
 + 创建Runnable实现类 丢入Thread 执行start方法
 #### 2、Runnable方式多线程下载图片
+## demo03
+#### 模拟购票(发现多线程的问题)
+#### 龟兔赛跑
+## demo04
+### 1、实现Callable创建多线程
++ 实现callable接口
++ 重写call方法 需要抛出异常
++ 创建目标对象
++ 创建执行服务：ExecutorService ser = Executor.newFixedThreadPool(1);
++ 提交执行：Future<Boolean> result = ser.submit(t1);
++ 获取结果：boolean b1 = result.get();
++ 关闭服务：service.shutdownNow();
